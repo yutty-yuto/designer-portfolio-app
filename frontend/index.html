@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ana Portfolio</title>
+  <script src="https://accounts.google.com/gsi/client"></script>
+  <!-- Font Awesome CDN -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+  <script type="module" src="./js/login.js"></script>
+  <script src="./js/lang.js" defer></script>
+</head>
+<body>
+  <!-- 言語切り替え -->
+  <div class="language-toggle">
+    <a href="#" data-lang="en">EN</a>  |
+    <a href="#" data-lang="ja">JA</a>
+  </div>
+
+  <!-- 作品一覧セクション -->
+  <section class="works-section">
+    <div class="text">
+      <!-- JSで言語ファイルから適した言語の値を挿入 -->
+    </div>
+
+    <div class="works-grid">
+      <!-- JSで各作品の画像とタイトル、いいねマークを追加 -->
+    </div>
+
+    <a id="contact-link" class="mail-link">
+      <!-- JSで作品依頼のメールリンクを追加 -->
+      <img src="img/email.svg" class="contactIcon">
+    </a>
+  
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- デザイナーセクション -->
+  <section class="designer-section">
+    <div class="profile">
+      <img src="img/designer.jpg" alt="Ana" class="profile-pic">
+      <div class="profile-info">
+        <!-- JSで言語ファイルから適した言語の値を挿入 -->
+      </div>
+    </div>
+
+    <div class="profile-detail">
+      <div class="info-card aboutme">
+        <h3 class="info-title aboutme">
+          <!-- JSで言語ファイルから適した言語の値を挿入 -->
+        </h3>
+        <p class="info-text aboutme">
+          <!-- JSで言語ファイルから適した言語の値を挿入 -->
+        </p>
+      </div>
+
+      <div class="info-card personal">
+        <h3 class="info-title personal">PERSONAL SKILL</h3>
+        <!-- JSで言語ファイルから適した言語の値を挿入 -->
+      </div>
+
+      <div class="info-card education">
+        <h3 class="info-title education">
+          <!-- JSで言語ファイルから適した言語の値を挿入 -->
+        </h3>
+        <ul class="info-text  education">
+          <!-- JSで言語ファイルから適した言語の値を挿入 -->
+        </ul>
+      </div>
+
+      <div class="info-card creative">
+        <h3 class="info-title creative">
+          <!-- JSで言語ファイルから適した言語の値を挿入 -->
+        </h3>
+      </div>
+
+      <div class="info-card experience">
+        <h3 class="info-title experience">
+          <!-- JSで言語ファイルから適した言語の値を挿入 -->
+        </h3>
+        <p class="info-text experience">
+          <!-- JSで言語ファイルから適した言語の値を挿入 -->
+        </p>
+      </div>
+
+      <div class="info-card contact">
+        <h3 class="info-title contact">CONTACT</h3>
+        <p class="info-text contact">
+          <!-- JSで言語ファイルから適した言語の値を挿入 -->
+        </p>
+      </div>
+
+      <div class="info-card software">
+        <h3 class="info-title software">SOFTWARE</h3>
+          <!-- JSで言語ファイルから適した言語の値を挿入 -->
+      </div>
+
+    </div>
+  </section>
+
+<!-- Googleログインボタン -->
+<div id="google-button">
+  <!-- JSで、GoogleクライアントIDを動的に追加 -->
+</div>
+<div id="g_id_onload"></div>
+<div class="g_id_signin"
+     data-type="standard"
+     data-size="large"
+     data-theme="outline"
+     data-text="sign_in_with"
+     data-shape="rectangular"
+     data-logo_alignment="left">
+</div>
+
+<script type="module" src="js/api.js"></script>
+<script type="module" src="js/main.js"></script>
+<script type="module" src="js/redirect-handler.js"></script>
+</body>
+</html>

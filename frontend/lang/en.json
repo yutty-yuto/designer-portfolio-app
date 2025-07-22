@@ -1,0 +1,86 @@
+{
+  "introduction": "Ana Flaherty is a graphic designer who combines illustration and fine art skills to create standout, visually striking pieces for clients and businesses."
+  ,
+
+  "contact": {
+    "button": "If you’d like to request a custom piece",
+    "message": "If you’re interested in this item, please make your purchase here",
+    "label": "CONTACT",
+    "value1": "@anaflaherrty",
+    "value2": "ana.flaherty@gmail.com"
+  },
+
+  "social": {
+    "instagramButton": "Purchase this product via Instagram",
+    "emailButton": "For design commissions"
+  },
+
+  "profile": {
+    "name": {
+      "label": "name :",
+      "value": "Ana"
+    },
+    "occupation": {
+      "label": "Occupation :",
+      "value": "Graphic Designer"
+    },
+    "born": {
+      "label": "Born :",
+      "value": "Debuque, Iowa"
+    }
+  },
+
+  "about": {
+    "label": "ABOUT ME",
+    "value": "My passion for art began with my passion for storytelling. I want my art to convey an emotion and a story. My background is in fine arts and traditional media. But I soon became drawn to the world of graphic design. Graphic design allows me to create something that the client loves and allows me to take risks."
+  },
+
+  "personalskill": {
+    "label": "PERSONAL SKILL",
+    "values": [
+      "Teamwork",
+      "Typography",
+      "Branding",
+      "Logo Design",
+      "Clothing Design",
+      "Illustration",
+      "UX/UI Design",
+      "Fine Art",
+      "Video Editing"
+    ]
+  },
+
+  "education": {
+    "label": "EDUCATION",
+    "values": [
+      "University of Nevada, Las Vegas 2018 – 2023",
+      "Bachelor of Science Degree in Graphic Design and Media"
+    ]
+  },
+
+  "creativefield": {
+    "label": "CREATIVE FIELD",
+    "values": [
+      "Graphic Design",
+      "Fine Art",
+      "Digital Illustrator"
+    ]
+  },
+
+  "experience": {
+    "label": "EXPERIENCE",
+    "value": "Freelancer Designer 2024 – Now"
+  },
+
+  "software": {
+    "label": "SOFTWARE",
+    "values": [
+      "Adobe Creative Cloud",
+      "Adobe Illustrator",
+      "Adobe Photoshop",
+      "Adobe InDesign",
+      "Procreate",
+      "Adobe XD"
+    ]
+  }
+}

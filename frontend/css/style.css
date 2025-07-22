@@ -1,0 +1,713 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  /* background-color: #efeff0; */
+  background-color: #f9f9f9;
+  font-size: 1rem;  /* ✅ 1rem = 16px（デフォルト）と明示 */
+  font-family: 'Inter', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  letter-spacing: 0.015em;
+  /* color: #2c2c2c; */
+  color: #1a1919;
+}
+
+.language-toggle {
+  width: 95%;
+  text-align: right;
+  margin-top: 1.4rem;
+}
+
+.language-toggle a {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  color: #c0c0c0;
+  text-decoration: none;
+}
+
+.language-toggle a:hover {
+  text-decoration: underline;
+  color: #666;
+}
+
+.language-toggle a.active {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #666; /* 強調色 */
+}
+
+/* -----作品一覧セクション----- */
+
+/* PC用ベーススタイル */
+.works-section {
+  max-width: 68.75rem;  /* ✅ 1100px → rem変換（1100 ÷ 16） */
+  margin: 0 auto;
+  padding: 4.5rem 1rem;
+  padding-bottom: 7rem;
+  text-align: center;
+}
+
+.works-section > .mail-link {
+  min-width: 330px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.text {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 6%;
+  color: #666666;
+  letter-spacing: 0.05em;
+  font-size: 1.4rem;
+}
+
+.works-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 6%;
+}
+
+.work-card .work-pic {
+  width: 100%;
+  max-width: 18.75rem;  /* ✅ 300px → rem（300 ÷ 16） */
+  /* height: auto; */
+  border-radius: 0.5rem;  /* ✅ 8px → rem */
+  box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.3); /* ✅ 2px 6px → rem */
+
+  height: 300px;
+  object-fit: cover;
+}
+
+.work-card {
+  position: relative;
+  text-decoration: none;
+}
+
+.work-card > .like-icon {
+  position: absolute;
+  top: 1rem;
+  right: 2.5rem;
+  color: rgba(100, 100, 100, 0.5);
+  text-shadow: 0 0 1px black;
+  background: none;
+  font-size: 1.5rem;
+  pointer-events: auto;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.like-icon.pop-animation {
+  animation: pop 0.3s ease;
+}
+
+.work-card:hover {
+  /* background-color: #fef4f7; */
+  background-color: #EEEEEE;
+  transform: translateY(-0.25rem);  /* ✅ 4px → rem */
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);  /* ✅ 8px 16px → rem */
+}
+
+.work-title {
+  font-weight: bold;
+  color: grey;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.mail-link {
+  text-decoration: none;
+  color: #d64a5b;
+  transition: all 0.2s;
+}
+
+.section-divider {
+  /* max-width: 68.75rem; 🚨問題があったら消すかも */
+  margin: 2rem auto 1rem;
+  margin: 6rem; /*🚨問題があったら消すかも*/
+}
+
+.g_id_signin {
+  width: 22rem;
+  margin: 0 auto;
+}
+
+/* タブレット用メディアクエリ */
+@media screen and (max-width: 768px) {
+  .work-card > .like-icon {
+    top: -1.6rem;
+    right: 3rem;
+  }
+
+  .works-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .text {
+    width: 85%;
+    font-size: 1rem;
+  }
+
+  .mail-link {
+    font-size: 1rem;
+  }
+}
+
+/* スマホ用メディアクエリ */
+@media screen and (max-width: 480px) {
+  .text {
+    width: 90%;
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+  }
+
+  .work-card > .like-icon {
+      top: -2rem;
+      right: 3.5rem;
+  }
+
+  .works-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .work-title {
+    font-size: 1rem;
+    display: inline-block;
+    width: 80%;
+  }
+
+  .section-divider {
+    width: 70%;
+    margin: 1.5rem auto;
+  }
+
+  .works-section > .mail-link {
+    min-width: 250px;
+  }
+
+  .works-section {
+    padding-bottom: 5rem;
+    padding: 2rem 0;
+  }
+
+  .mail-link {
+    display: block;
+    margin-top: 2rem;
+    font-size: 0.95rem;
+  }
+}
+
+/* -----デザイナーセクション----- */
+
+/* PC用ベーススタイル */
+.designer-section {
+  max-width: 78rem;
+  margin: 0 auto;
+  padding: 2rem 2rem;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* 左側のプロフィール画像と基本情報 */
+.profile {
+  flex: 1 1 270px;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1rem;
+  color: #333;
+  text-align: left;
+  padding-left: 4rem;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.info-label {
+  flex: 0 0 8rem;
+  font-weight: bold;
+}
+
+.info-value {
+  flex: 1;
+}
+
+/* 右側の詳細情報ブロック */
+.profile-detail {
+  flex: 2 1 500px;
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+/* 各ボックス（ABOUT MEなど） */
+.info-card {
+  /* background-color: #fef4f7; */
+  background-color: #f2f2f2;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  flex: 1 1 calc(50% - 1rem);
+  box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.05);
+}
+
+.info-title {
+  width: 11rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;    
+  justify-content: center;
+  font-size: 1rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.3);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.info-text {
+  font-size: 0.95rem;
+  color: #444;
+  /* margin-left: 0; */
+}
+
+.info-card > .info-text {
+  margin: 0.4rem 0;
+}
+
+.mail-link {
+  text-align: center;
+}
+
+.g_id_signin {
+  padding: 5rem 0;
+}
+
+/* タブレット用メディアクエリ */
+@media screen and (max-width: 768px) {
+  .designer-section {
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+  }
+
+  .profile {
+    width: 100%;
+    align-items: center;
+  }
+
+  .profile-info {
+    padding-left: 226px;
+    margin: 0 auto;
+  }
+
+  .profile-detail {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .info-title {
+    font-size: 1rem;
+  }
+
+  .info-text {
+    font-size: 0.95rem;
+  }
+
+  .info-card {
+    flex: 1 1 100%;
+  }
+
+  .software-icons {
+    max-width: 100%;
+  }
+}
+
+
+/* スマホ用メディアクエリ */
+@media screen and (max-width: 480px) {
+  .design-divider {
+    padding: 1.5rem auto;
+  }
+
+  .designer-section {
+    flex-direction: column;
+    padding: 2rem 1rem;
+    align-items: center;
+  }
+
+  .profile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-info {
+    padding-left: 0;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 280px;  /* ✅ スマホ幅に調整 */
+  }
+
+  .info-row {
+    /* flex-direction: column; */
+    flex-direction: initial;
+    align-items: center;
+  }
+
+  .info-label {
+    flex: none;
+    /* width: 100px;
+    text-align: left; */
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+    width: 100px;
+    text-align: left;
+  }
+
+  .info-value {
+    /* flex: none;
+    text-align: center; */
+    text-align: left;
+    /* width: 100%;
+    display: inline-block;
+    text-align: left;
+    font-weight: 500;
+    flex: 1; */
+  }
+
+  .profile-detail {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .info-card {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  .info-title {
+    width: 100%;
+    /* max-width: 200px;
+    margin: 0 auto 0.5rem; */
+    font-size: 0.95rem;
+    justify-content: center;
+  }
+
+  .info-text {
+    font-size: 0.9rem;
+    /* text-align: center; */
+    margin-left: 0;
+  }
+
+  .software-icons {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* -----作品詳細セクション----- */
+
+/* PC用ベーススタイル */
+.detail-section {
+  /* max-width: 58rem; */
+  max-width: 80rem; /* 🚨上に戻す */
+  margin: 0 auto;
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.detail-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border-left: 4px solid darkgray;
+  padding-left: 0.5em;
+  margin-bottom: 1rem;
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom: 4.5rem;
+  color: #666666;
+}
+
+.detail-main {
+  margin: 0 auto; /* 🚨うまくいかなかったら削除 */
+  display: flex;
+  flex-direction: row-reverse;
+  overflow-wrap: break-word;
+  gap: 2rem;
+}
+
+.section-divider {
+  border: none;
+  border-top: 1px solid #ccc;
+  padding: 3.5rem 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.detail-explanation {
+  margin-top: 2.3rem;
+}
+
+.detail-description {
+  font-size: 1.4rem;
+  text-align: left;
+  max-width: 33rem;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+  line-height: 1.6;
+}
+
+.main-image {
+  height: 35rem;
+  max-width: 500px; /* 🚨上に戻す */
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.like-icon {
+  width: 100%;
+  height: 1.9rem;
+  color: black;
+  margin-bottom: 1.5rem;
+}
+
+.detail-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* .gallery-image {
+  max-width: 300px;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.1);
+} */
+
+.works-image {
+  /* width: 100%;
+  height: 660px;
+  border-radius: 0.5rem;
+  object-fit: cover; */
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  display: block;
+}
+
+.contact-section {
+  text-align: center;
+}
+
+.instagram-link {
+  background-color: #ffe5ec; /* 淡いピンク。主張しすぎず柔らかい印象 */
+}
+
+.mail-link {
+  background-color: #e6f0ff; /* 淡いブルー。信頼感・フォーマル感あり */
+}
+
+.instagram-link, .mail-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 0.8rem 1.2rem;
+  min-width: 300px;
+  max-width: 360px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: #333;
+  gap: 0.5rem;
+  margin: 1rem 0 0.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease;
+}
+
+.instagram-link:hover, .mail-link:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.contactIcon {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.detail-gallery:has(.works-image:nth-last-child(1):nth-child(odd)) .works-image:last-child {
+  grid-column: 1 / -1;
+  justify-content: center;
+  width: 62%;
+  margin: 0 auto;
+}
+
+.link-bottom {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  font-size: 1.2rem;
+  color: gray;
+  text-decoration: none;
+  text-align: center;
+}
+
+.link-bottom:hover {
+  background-color: rgba(0, 0, 0, 0.05); /* 軽い背景ハイライト */
+  color: black;                          /* 色を強調 */
+  transform: translateY(-2px);          /* 少し浮くような動き */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 柔らかい影 */
+  cursor: pointer;
+}
+
+/* タブレット用メディアクエリ */
+@media screen and (max-width: 768px) {
+  .detail-section {
+    padding: 1.5rem 1rem;
+  }
+  .main-image {
+    max-width: 100%;
+  }
+
+  .detail-title {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .detail-main {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .detail-description {
+    font-size: 0.95rem;
+    padding-bottom: 0;
+  }
+
+  .like-icon {
+    padding: 1.8rem 0;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .detail-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .works-image {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .works-image:last-child:only-child,
+  .works-image:last-child:nth-child(odd):nth-last-child(1) {
+    grid-column: span 1;
+    height: auto;
+  }
+
+  .link-bottom {
+    margin-top: 3.5rem;
+    width: 85%;
+  }
+}
+
+/* スマホ用メディアクエリ */
+@media screen and (max-width: 480px) {
+  .main-image, .detail-explanation {
+    /* max-width: 222px; */
+    max-width: 100%;
+  }
+
+  .detail-title {
+    font-size: 0.88rem;
+  }
+
+  .detail-main {
+    width: 100%;
+  }
+
+  .main-image {
+    height: 100%;
+  }
+
+  .detail-explanation {
+    margin-top: 0;
+  }
+
+  .detail-description {
+    font-size: 0.9rem;
+  }
+
+  .like-icon {
+    height: 1.3rem;
+  }
+
+  .works-image {
+    width: 100%;
+    height: auto;
+    max-height: 360px;
+  }
+
+  .section-divider {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .mail-link {
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+  }
+
+  .link-bottom {
+    width: 91%;
+    font-size: 0.6rem;
+    margin: 0 auto;
+  }
+}

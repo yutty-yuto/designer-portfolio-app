@@ -1,0 +1,85 @@
+{
+  "introduction": "Ana Flaherty は、イラストレーションとファインアートのスキルを活かし、クライアントや企業向けに印象的で視覚的に魅力的な作品を制作するグラフィックデザイナーです。",
+
+  "contact": {
+    "button": "オリジナル作品のご依頼はこちらから",
+    "message": "このアイテムにご興味のある方は、こちらからご購入ください。",
+    "label": "お問い合わせ",
+    "value1": "@anaflaherrty",
+    "value2": "ana.flaherty@gmail.com"
+  },
+
+  "social": {
+    "instagramButton": "Instagramからご購入いただけます",
+    "emailButton": "デザイン依頼はこちら"
+  },
+
+  "profile": {
+    "name": {
+      "label": "名前 :",
+      "value": "Ana"
+    },
+    "occupation": {
+      "label": "職業 :",
+      "value": "グラフィックデザイナー"
+    },
+    "born": {
+      "label": "生まれ :",
+      "value": "アイオワ州ダビューク"
+    }
+  },
+
+  "about": {
+    "label": "自己紹介",
+    "value": "私のアートへの情熱は、物語を語ることへの情熱から始まりました。作品には感情や物語を込めたいと考えています。ファインアートと伝統的なメディアを学びながら、次第にグラフィックデザインの世界に惹かれていきました。グラフィックデザインは、クライアントに喜んでもらえる作品を制作できると同時に、自分自身も新たな挑戦ができる表現手段です。"
+  },
+
+  "personalskill": {
+    "label": "スキル",
+    "values": [
+      "チームワーク",
+      "タイポグラフィ",
+      "ブランディング",
+      "ロゴデザイン",
+      "アパレルデザイン",
+      "イラストレーション",
+      "UX/UIデザイン",
+      "ファインアート",
+      "動画編集"
+    ]
+  },
+
+  "education": {
+    "label": "学歴",
+    "values": [
+      "ネバダ大学ラスベガス校（2018年〜2023年）",
+      "グラフィックデザイン＆メディア学士号取得"
+    ]
+  },
+
+  "creativefield": {
+    "label": "クリエイティブ分野",
+    "values": [
+      "グラフィックデザイン",
+      "ファインアート",
+      "デジタルイラスト"
+    ]
+  },
+
+  "experience": {
+    "label": "職歴",
+    "value": "フリーランスデザイナー（2024年〜現在）"
+  },
+
+  "software": {
+    "label": "使用ソフト",
+    "values": [
+      "Adobe Creative Cloud",
+      "Adobe Illustrator",
+      "Adobe Photoshop",
+      "Adobe InDesign",
+      "Procreate",
+      "Adobe XD"
+    ]
+  }
+}

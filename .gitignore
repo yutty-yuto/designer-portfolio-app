@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# 環境変数
+.env
+.env.*
+
+# フロントエンド
+frontend/js/env.js
+
+# 仮想環境
+env/
+
+# Django
+*.sqlite3
+media/
+
+# VSCode等
+.vscode/
+
+# その他
+*.log
