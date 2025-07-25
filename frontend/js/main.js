@@ -1,5 +1,5 @@
 import { fetchWorks, fetchFavorite } from "./api.js";
-import { isLikedLocally, updateLocalFavorites } from "./favorite.js";
+import { updateLocalFavorites } from "./favorite.js";
 import { loadLanguage, setupLanguageToggle } from "./lang.js";
 import { CONFIG } from "./env.js";
 
