@@ -1,5 +1,4 @@
 from django.db import models
-# from sortable.admin import SortableAdminMixin
 from django.conf import settings
 from django.contrib.auth.models import AbstractUser
 
