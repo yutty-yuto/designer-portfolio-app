@@ -87,7 +87,6 @@ class FavoriteAPIView(APIView):
     
         # STEP1: 仮ユーザーで登録
         dummy_user, _ = User.objects.get_or_create(email="guest@example.com", defaults={"username": "guest", "is_active": False})
-        # dummy_user = User.objects.get(pk=1)
 
         _, created = Favorite.objects.get_or_create(user=dummy_user, work=work)
         if created:
