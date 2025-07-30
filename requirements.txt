@@ -1,3 +1,6 @@
 Django>=4.2,<5.1
 gunicorn>=21.2
 python-dotenv>=1.0
+djangorestframework>=3.15
+django-allauth>=0.63
+django-cors-headers>=4.0
