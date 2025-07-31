@@ -7,3 +7,7 @@ django-cors-headers>=4.0
 dj-rest-auth>=5.0
 django-admin-sortable2>=2.1
 psycopg2-binary>=2.9
+requests>=2.31
+PyJWT>=2.8
+cryptography>=41
+google-auth>=2.28
