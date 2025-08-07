@@ -6,14 +6,12 @@ html, body {
 }
 
 body {
-  /* background-color: #efeff0; */
   background-color: #f9f9f9;
-  font-size: 1rem;  /* ✅ 1rem = 16px（デフォルト）と明示 */
+  font-size: 1rem;
   font-family: 'Inter', sans-serif;
   font-size: 1.3rem;
   line-height: 1.8;
   letter-spacing: 0.015em;
-  /* color: #2c2c2c; */
   color: #1a1919;
 }
 
@@ -38,14 +36,14 @@ body {
 .language-toggle a.active {
   font-weight: bold;
   text-decoration: underline;
-  color: #666; /* 強調色 */
+  color: #666;
 }
 
 /* -----作品一覧セクション----- */
 
 /* PC用ベーススタイル */
 .works-section {
-  max-width: 68.75rem;  /* ✅ 1100px → rem変換（1100 ÷ 16） */
+  max-width: 68.75rem;
   margin: 0 auto;
   padding: 4.5rem 1rem;
   padding-bottom: 7rem;
@@ -76,10 +74,9 @@ body {
 
 .work-card .work-pic {
   width: 100%;
-  max-width: 18.75rem;  /* ✅ 300px → rem（300 ÷ 16） */
-  /* height: auto; */
-  border-radius: 0.5rem;  /* ✅ 8px → rem */
-  box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.3); /* ✅ 2px 6px → rem */
+  max-width: 18.75rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.3);
 
   height: 300px;
   object-fit: cover;
@@ -118,10 +115,9 @@ body {
 }
 
 .work-card:hover {
-  /* background-color: #fef4f7; */
   background-color: #EEEEEE;
-  transform: translateY(-0.25rem);  /* ✅ 4px → rem */
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);  /* ✅ 8px 16px → rem */
+  transform: translateY(-0.25rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 .work-title {
@@ -138,9 +134,8 @@ body {
 }
 
 .section-divider {
-  /* max-width: 68.75rem; 🚨問題があったら消すかも */
   margin: 2rem auto 1rem;
-  margin: 6rem; /*🚨問題があったら消すかも*/
+  margin: 6rem
 }
 
 .g_id_signin {
@@ -279,7 +274,6 @@ body {
 
 /* 各ボックス（ABOUT MEなど） */
 .info-card {
-  /* background-color: #fef4f7; */
   background-color: #f2f2f2;
   border-radius: 0.5rem;
   padding: 1rem;
@@ -304,7 +298,6 @@ body {
 .info-text {
   font-size: 0.95rem;
   color: #444;
-  /* margin-left: 0; */
 }
 
 .info-card > .info-text {
@@ -383,19 +376,16 @@ body {
     padding-left: 0;
     text-align: center;
     margin: 0 auto;
-    max-width: 280px;  /* ✅ スマホ幅に調整 */
+    max-width: 280px;
   }
 
   .info-row {
-    /* flex-direction: column; */
     flex-direction: initial;
     align-items: center;
   }
 
   .info-label {
     flex: none;
-    /* width: 100px;
-    text-align: left; */
     font-weight: 500;
     margin-bottom: 0.25rem;
     width: 100px;
@@ -403,14 +393,7 @@ body {
   }
 
   .info-value {
-    /* flex: none;
-    text-align: center; */
     text-align: left;
-    /* width: 100%;
-    display: inline-block;
-    text-align: left;
-    font-weight: 500;
-    flex: 1; */
   }
 
   .profile-detail {
@@ -427,15 +410,12 @@ body {
 
   .info-title {
     width: 100%;
-    /* max-width: 200px;
-    margin: 0 auto 0.5rem; */
     font-size: 0.95rem;
     justify-content: center;
   }
 
   .info-text {
     font-size: 0.9rem;
-    /* text-align: center; */
     margin-left: 0;
   }
 
@@ -449,8 +429,7 @@ body {
 
 /* PC用ベーススタイル */
 .detail-section {
-  /* max-width: 58rem; */
-  max-width: 80rem; /* 🚨上に戻す */
+  max-width: 80rem;
   margin: 0 auto;
   padding: 2rem 2rem;
   display: flex;
@@ -472,7 +451,7 @@ body {
 }
 
 .detail-main {
-  margin: 0 auto; /* 🚨うまくいかなかったら削除 */
+  margin: 0 auto;
   display: flex;
   flex-direction: row-reverse;
   overflow-wrap: break-word;
@@ -502,7 +481,7 @@ body {
 
 .main-image {
   height: 35rem;
-  max-width: 500px; /* 🚨上に戻す */
+  max-width: 500px;
   margin: 0 auto;
   border-radius: 0.5rem;
   box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.1);
@@ -523,17 +502,7 @@ body {
   margin: 0 auto;
 }
 
-/* .gallery-image {
-  max-width: 300px;
-  border-radius: 0.5rem;
-  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.1);
-} */
-
 .works-image {
-  /* width: 100%;
-  height: 660px;
-  border-radius: 0.5rem;
-  object-fit: cover; */
   width: 100%;
   object-fit: cover;
   border-radius: 0.5rem;
@@ -545,11 +514,11 @@ body {
 }
 
 .instagram-link {
-  background-color: #ffe5ec; /* 淡いピンク。主張しすぎず柔らかい印象 */
+  background-color: #ffe5ec;
 }
 
 .mail-link {
-  background-color: #e6f0ff; /* 淡いブルー。信頼感・フォーマル感あり */
+  background-color: #e6f0ff;
 }
 
 .instagram-link, .mail-link {
@@ -599,10 +568,10 @@ body {
 }
 
 .link-bottom:hover {
-  background-color: rgba(0, 0, 0, 0.05); /* 軽い背景ハイライト */
-  color: black;                          /* 色を強調 */
-  transform: translateY(-2px);          /* 少し浮くような動き */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 柔らかい影 */
+  background-color: rgba(0, 0, 0, 0.05);
+  color: black;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
 
@@ -661,7 +630,6 @@ body {
 /* スマホ用メディアクエリ */
 @media screen and (max-width: 480px) {
   .main-image, .detail-explanation {
-    /* max-width: 222px; */
     max-width: 100%;
   }
 
