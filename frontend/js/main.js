@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   contactP.appendChild(document.createElement('br'));
 
   const mailIcon = document.createElement('i');
-  mailIcon.className = 'fab fa-instagram';
+  mailIcon.className = 'fa-regular fa-envelope';
   contactP.appendChild(mailIcon);
   contactP.append(' ' + texts.contact.value2);
 
