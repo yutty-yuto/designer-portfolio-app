@@ -5,7 +5,9 @@ export async function fetchWorks() {
   const lang = localStorage.getItem('lang') || 'en';
 
   try {
-    const res = await fetch(`${API_BASE}/works/?lang=${lang}`);
+    const res = await fetch(`${API_BASE}/works/?lang=${lang}`,{
+      headers: { 'Accept-Language': lang }
+    });
 
     if (!res.ok) {
       throw new Error(`HTTP Error: ${res.status}`);
@@ -23,7 +25,9 @@ export async function fetchWorkById(id) {
   const lang = localStorage.getItem('lang') || 'en';
 
   try {
-    const res = await fetch(`${API_BASE}/works/${id}/?lang=${lang}`);
+    const res = await fetch(`${API_BASE}/works/${id}/?lang=${lang}`, {
+      headers: { 'Accept-Language': lang }
+    });
 
     if (!res.ok) {
       throw new Error(`HTTP Error: ${res.status}`);

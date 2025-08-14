@@ -74,8 +74,8 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.common.CommonMiddleware',
     'django.middleware.locale.LocaleMiddleware', # リクエストのAccept-Languageの判定に使用
+    'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
@@ -191,6 +191,8 @@ LANGUAGES = [
   ('en', 'English'),
   ('ja', 'Japanese'),
 ]
+
+LANGUAGE_QUERY_PARAMETER = "lang"
 
 TIME_ZONE = 'UTC'
 

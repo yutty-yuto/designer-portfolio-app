@@ -8,6 +8,7 @@ const toMediaUrl = (u) => (u ? u.replace(/^https?:\/\/api\.ana-flaherty\.com/, '
 
 document.addEventListener('DOMContentLoaded', async () => {
   const works = await fetchWorks();
+
   if (works.error) {
     alert(works.error);
     return;
