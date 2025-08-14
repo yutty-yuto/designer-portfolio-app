@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 
   // 高値取引作品への購入依頼用リンク
-  if (work) {
+  if (work.is_high_value) {
     const instagramLink = document.createElement('a');
     instagramLink.href = 'https://www.instagram.com/taichis.slunks/?igsh=OWdydWJuMHYwcDl2#';
     instagramLink.className = 'instagram-link';
