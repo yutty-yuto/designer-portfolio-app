@@ -3,6 +3,9 @@ import { getFavorites, updateLocalFavorites } from "./favorite.js";
 import { loadLanguage, setupLanguageToggle } from "./lang.js";
 import { CONFIG } from "./env.js";
 
+// CloudFrontへのアクセスのため、相対パス(/media/)に置換
+const toMediaUrl = (u) => (u ? u.replace(/^https?:\/\/api\.ana-flaherty\.com/, '') : u);
+
 document.addEventListener('DOMContentLoaded', async () => {
   const params = new URLSearchParams(window.location.search);
   const workId = params.get('id');
@@ -65,7 +68,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.getElementById('work-description').textContent = work.description;
   
   const mainImg = document.getElementById('main-image');
-  mainImg.src = work.main_image.image_file;
+  // mainImg.src = work.main_image.image_file;
+  mainImg.src = toMediaUrl(work.main_image.image_file) ?? 'img/placeholder.png';
   mainImg.alt = work.title;
   mainImg.className = 'main-image';
 
@@ -123,7 +127,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   const imgContainer = document.getElementById('gallery');
   work.images.forEach(img => {
     const imgElem = document.createElement('img');
-    imgElem.src = img.image_file;
+    // imgElem.src = img.image_file;
+    imgElem.src = toMediaUrl(img.image_file) ?? 'img/placeholder.png';
     imgElem.alt = img.purpose;
     imgElem.className = 'works-image';
     imgContainer.appendChild(imgElem);

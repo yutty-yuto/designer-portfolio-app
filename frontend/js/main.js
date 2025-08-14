@@ -3,6 +3,9 @@ import { updateLocalFavorites } from "./favorite.js";
 import { loadLanguage, setupLanguageToggle } from "./lang.js";
 import { CONFIG } from "./env.js";
 
+// CloudFrontへのアクセスのため、相対パス(/media/)に置換
+const toMediaUrl = (u) => (u ? u.replace(/^https?:\/\/api\.ana-flaherty\.com/, '') : u);
+
 document.addEventListener('DOMContentLoaded', async () => {
   const works = await fetchWorks();
   if (works.error) {
@@ -174,7 +177,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // imgタグを作成
     const img = document.createElement('img');
-    img.src = work.main_image?.image_file
+    // img.src = work.main_image?.image_file
+    img.src = toMediaUrl(work.main_image?.image_file) ?? 'img/placeholder.png';
     console.log(img.src);
     img.alt = work.title;
     img.className = 'work-pic';
