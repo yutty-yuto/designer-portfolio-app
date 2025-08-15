@@ -1,0 +1,662 @@
+[
+{
+  "model": "core.work",
+  "pk": 2,
+  "fields": {
+    "title_en": "01 Beach Volleyball Shorts (Team Project)",
+    "title_ja": "01 ビーチバレー用ショーツ（チームプロジェクト）",
+    "description_en": "These custom shorts were designed for Taichi Slunks, an Instagram-based brand selling to Las Vegas volleyball teams. The client requested a feminine, flowy design featuring a cherry blossom on one side and a dragon on the other, inspired by Japanese aesthetics and manga art. The design was so successful that it became the highest-priced item on the Slunks Unofficial site at $159.99, leading to ongoing collaborations with the brand.",
+    "description_ja": "このカスタムショーツは、ラスベガスのバレーボールチーム向けに販売を行うInstagram発のブランド「Taichi Slunks」の依頼でデザインされたものです。桜の花と龍を左右に配置し、日本の美意識やマンガアートに着想を得た、女性らしく軽やかなデザインが特徴です。このショーツは非常に好評を博し、Slunks Unofficialサイトで当時最も高額な$159.99で販売され、継続的なコラボレーションにつながりました。",
+    "is_high_value": true,
+    "high_value_note_en": "On this project, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "high_value_note_ja": "チームプロジェクトで、xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "order": 1,
+    "created_at": "2025-06-08T15:05:45.733Z",
+    "updated_at": "2025-06-28T03:57:16.020Z",
+    "user": 1
+  }
+},
+{
+  "model": "core.work",
+  "pk": 3,
+  "fields": {
+    "title_en": "02 Beach Volleyball Shorts (Team Project)",
+    "title_ja": "02 ビーチバレー用ショーツ（チームプロジェクト）",
+    "description_en": "Following the success of the Japanese shorts, this Aztec-themed design was created for Taichi Slunks. It features the Aztec god Quetzalcoatl on one hip and a volleyball-infused Aztec sundial on the other. The design focuses on geometric and structured elements, with a stylized 3D look and dynamic details like a hissing tongue. The sundial was also used in the background to enhance the visual depth and uniqueness of the shorts.",
+    "description_ja": "日本風ショーツの成功を受けて、Taichi Slunksのために制作されたアステカをテーマにしたデザインです。片側にはアステカの神ケツァルコアトル、もう片側にはバレーボールのモチーフを取り入れたアステカの太陽暦が描かれています。幾何学的で構造的な要素を重視し、3D風にスタイライズされた立体感あるビジュアルと、舌を出している動きのある表現が特徴です。太陽暦は背景にも透過的に使用され、奥行きと独自性を演出しています。",
+    "is_high_value": true,
+    "high_value_note_en": "",
+    "high_value_note_ja": "",
+    "order": 2,
+    "created_at": "2025-06-08T15:06:57.538Z",
+    "updated_at": "2025-06-28T22:53:46.277Z",
+    "user": 1
+  }
+},
+{
+  "model": "core.work",
+  "pk": 4,
+  "fields": {
+    "title_en": "03 Beach Volleyball Shorts (Team Project)",
+    "title_ja": "03 ビーチバレー用ショーツ（チームプロジェクト）",
+    "description_en": "These bold and vibrant Oni-themed shorts were designed for Taichi Slunks. Featuring two oni battling on waves in bright blue and pink tones, the design uses dynamic poses and sweeping wave shapes to create movement across the front. The back is kept simpler, highlighting playful wave forms to balance the overall composition.",
+    "description_ja": "Taichi Slunksのためにデザインされた、鮮やかで大胆な鬼モチーフのショーツです。青とピンクを基調に、波の上で戦う2体の鬼を描き、前面はダイナミックなポーズと波の流れで動きを表現。背面はシンプルに抑えつつ、波の形状そのものの面白さでバランスを取っています。",
+    "is_high_value": true,
+    "high_value_note_en": "",
+    "high_value_note_ja": "",
+    "order": 3,
+    "created_at": "2025-06-08T15:07:37.901Z",
+    "updated_at": "2025-06-28T22:53:39.533Z",
+    "user": 1
+  }
+},
+{
+  "model": "core.work",
+  "pk": 5,
+  "fields": {
+    "title_en": "04 Lore Book box Project (Personal Project)",
+    "title_ja": "Lore ブックボックス プロジェクト（個人プロジェクト）",
+    "description_en": "This capstone project involved creating a custom 3D bookbox brand called Lore Bookbox. I designed illustrated panels and interactive doors that reveal scenes from books 1 and 3. All artwork was created in Procreate and Photoshop, and the set includes bookmarks, a map, and other themed items. The project was based on my own characters and story, with a visual style inspired by Studio Ghibli.",
+    "description_ja": "卒業制作として、オリジナルブランド「Lore Bookbox」を立ち上げ、3D要素を取り入れたカスタムブックボックスを制作しました。左右の扉を開くと、それぞれ物語の第1巻・第3巻のシーンが現れる仕掛けになっています。イラストはProcreateとPhotoshopで作成し、ブックマークや地図などの付属アイテムもセットに含まれています。スタジオジブリ風の世界観と、独自のキャラクターデザインが特徴です。",
+    "is_high_value": false,
+    "high_value_note_en": "",
+    "high_value_note_ja": "",
+    "order": 4,
+    "created_at": "2025-06-28T03:45:29.813Z",
+    "updated_at": "2025-06-28T04:49:01.688Z",
+    "user": 1
+  }
+},
+{
+  "model": "core.work",
+  "pk": 6,
+  "fields": {
+    "title_en": "05 Burger ad (Personal Project)",
+    "title_ja": "05 ハンバーガー広告（個人プロジェクト）",
+    "description_en": "The goal was to create a fictional food item for an existing fast food company. I chose to create\r\nthe Texas Chainsaw Massa-Curd burger from the TV show Bob's Burgers. I thought it would be\r\nfun to have Bob's Burgers collaborate with Burger King for a food item. Every element of the ad\r\nwas created intentionally. The layout of the table, burger, and floating food items was matched\r\nwith an old Burger King ad. There are many Easter eggs in this one that reference the TV show\r\nand movie.",
+    "description_ja": "架空のファストフード商品を、実在のチェーン店向けに企画・デザインするプロジェクトです。\r\n私は、アニメ『ボブズ・バーガーズ』から着想を得て、「Texas Chainsaw Massa-Curd（テキサス・チェーンソー・マッサカード）バーガー」を制作し、バーガーキングとのコラボ商品として提案しました。\r\n\r\n広告内の要素はすべて意図的に配置されており、テーブルの構図やバーガー、宙に浮かぶ具材のレイアウトは、過去のバーガーキング広告をもとに再現しています。\r\nTVアニメや映画へのオマージュとなる“イースターエッグ”も多数散りばめられ、遊び心あふれる一品に仕上げました。",
+    "is_high_value": false,
+    "high_value_note_en": "",
+    "high_value_note_ja": "",
+    "order": 5,
+    "created_at": "2025-06-28T04:51:27.066Z",
+    "updated_at": "2025-06-28T04:51:27.066Z",
+    "user": 1
+  }
+},
+{
+  "model": "core.work",
+  "pk": 7,
+  "fields": {
+    "title_en": "06 Inkaholics Magazine Spread (Personal Project)",
+    "title_ja": "06 Inkaholics 雑誌誌面デザイン（個人プロジェクト）",
+    "description_en": "I created a fictional tattoo magazine called “Inkaholics”. The brand itself is made for a group of\r\npeople who live and breathe tattoos. Either through the physical tattoos on their bodies or as the\r\nartist creating them. Each tattoo has a story, even the accidental ones. I wanted the design to be\r\nclean and focus on showing off the artist's portfolio.",
+    "description_ja": "架空のタトゥー専門雑誌「Inkaholics（インカホリックス）」の誌面デザインを制作しました。\r\nこのブランドは、タトゥーを愛し、人生の一部として生きる人々のために作られたもので、体に刻まれた作品として、またはそれを創り出すアーティストとして、タトゥーと深く関わる人々がターゲットです。\r\n\r\nすべてのタトゥーには、それが偶然の産物であっても、必ず物語があります。\r\n誌面デザインはあえてクリーンでシンプルにし、アーティストのポートフォリオが際立つよう工夫しました。",
+    "is_high_value": false,
+    "high_value_note_en": "",
+    "high_value_note_ja": "",
+    "order": 6,
+    "created_at": "2025-06-28T04:56:06.232Z",
+    "updated_at": "2025-06-28T05:08:21.187Z",
+    "user": 1
+  }
+},
+{
+  "model": "core.work",
+  "pk": 8,
+  "fields": {
+    "title_en": "07 MysticJinx Logo (Personal Project)",
+    "title_ja": "07 ミスティックジンクス ロゴ（個人プロジェクト）",
+    "description_en": "I created a streamer logo for a fictional brand called Mystic Jinx. The brand name Jinx is based\r\non my childhood cat named Jinx, who was a black cat with bright green eyes. I created the\r\ntypeface in Photoshop and created the gradient in the text to make it 3D and more interesting to\r\nlook at. The overall design was created to be cute, colorful, and edgy to represent me as a\r\ndesigner.",
+    "description_ja": "架空の配信ブランド「Mystic Jinx（ミスティック・ジンクス）」のために、ストリーマー用ロゴを制作しました。\r\nブランド名「Jinx」は、私の幼少期に飼っていた黒猫（鮮やかな緑の目を持つジンクス）に由来しています。\r\nロゴの書体はPhotoshopで一から作成し、文字にグラデーションを加えることで立体感と視覚的な面白さを持たせました。\r\n全体のデザインは、私自身のスタイルを表現するために「キュート」「カラフル」「ちょっとエッジィ」を意識しています。",
+    "is_high_value": false,
+    "high_value_note_en": "",
+    "high_value_note_ja": "",
+    "order": 7,
+    "created_at": "2025-06-28T05:12:26.577Z",
+    "updated_at": "2025-06-28T05:12:26.577Z",
+    "user": 1
+  }
+},
+{
+  "model": "core.work",
+  "pk": 9,
+  "fields": {
+    "title_en": "08 Gone With the Phantom Poster (Personal Project)",
+    "title_ja": "08 『ゴーン・ウィズ・ザ・ファントム』ポスター（個人プロジェクト）",
+    "description_en": "In this project, we were tasked to mix two different styles together. I chose to blend the Phantom\r\nof the Opera into the Gone With the Wind style. The whole poster started with an image from\r\nthe movie. I then redrew a lot of the characters, photo-mashed, and added filters. For the\r\nillustration, I drew his hair, neck, and most of his shirt.",
+    "description_ja": "このプロジェクトでは、異なる2つのスタイルを組み合わせて1つの作品を制作するという課題に取り組みました。\r\n私は『オペラ座の怪人』の要素を、『風と共に去りぬ』のスタイルに融合させることを選びました。\r\n\r\nポスターは、映画のワンシーンからスタートし、登場人物の多くを描き直し、写真の合成やフィルター処理を加えています。\r\nイラスト部分では、キャラクターの髪や首元、シャツの大部分を手描きで仕上げました。",
+    "is_high_value": false,
+    "high_value_note_en": "",
+    "high_value_note_ja": "",
+    "order": 8,
+    "created_at": "2025-06-28T05:16:09.816Z",
+    "updated_at": "2025-06-28T05:16:09.816Z",
+    "user": 1
+  }
+},
+{
+  "model": "core.work",
+  "pk": 10,
+  "fields": {
+    "title_en": "09 Blind Faith Project (Personal Project)",
+    "title_ja": "09 ブラインド・フェイス・プロジェクト（個人プロジェクト）",
+    "description_en": "The goal was to create a Victorian-styled logo and supporting pieces for a fictional traveling\r\ncircus brand. The Blind Faith Circus is known for its dangerous and bold acts that keep the\r\naudience on their toes. I represented the bold and dangerous acts through color and circus\r\ndesign details. Instead of using the usual Victorian tans, whites, and circus reds, I chose to\r\nfocus on the spotlight blue color seen during circus performances. Then blend Victorian icons\r\nwith circus elements to fully represent the brand throughout the posters and logo design.",
+    "description_ja": "このプロジェクトの目的は、架空の巡業サーカスブランドのために、ヴィクトリア調のロゴとそれに付随するビジュアルを制作することでした。\r\n「Blind Faith Circus（ブラインド・フェイス・サーカス）」は、観客をハラハラさせるような危険で大胆な演目で知られています。\r\n\r\nその雰囲気を色づかいやサーカス特有のデザインディテールを通じて表現しました。\r\n一般的なヴィクトリア調のベージュや白、サーカスの赤ではなく、サーカス公演中に見られる“スポットライトの青”をメインカラーに採用。\r\nさらに、ヴィクトリア時代のアイコンとサーカス要素を融合させ、ポスターやロゴ全体を通してブランドの世界観を体現しました。",
+    "is_high_value": false,
+    "high_value_note_en": "",
+    "high_value_note_ja": "",
+    "order": 9,
+    "created_at": "2025-06-28T05:19:40.355Z",
+    "updated_at": "2025-06-28T05:19:40.356Z",
+    "user": 1
+  }
+},
+{
+  "model": "core.work",
+  "pk": 11,
+  "fields": {
+    "title_en": "10 Tranquil Tea Packaging (Personal Project)",
+    "title_ja": "10 トランクィル・ティー パッケージデザイン（個人プロジェクト）",
+    "description_en": "I made a brand called Tranquil-Tea. I wanted to make a soft, peaceful brand of sleepy teas that\r\ncalm nerves. Each color box has a specific sleepy ingredient you can find in calming teas. The\r\ndesign represents sleep and comfort. For each of the designs, I wanted the icons to be the\r\ncalming ingredient used in it, basing the colors on that ingredient. For the side of the tea\r\npackaging, I wanted to keep it simple. Through my research, I found that people enjoy less text\r\nand getting to the point of the steps. Overall, I wanted the design to be colorful and to focus on\r\nthe calming ingredients in the box.",
+    "description_ja": "「Tranquil-Tea（トランクィル・ティー）」という、心を落ち着かせて眠りを誘うソフトで穏やかな印象のハーブティーブランドを立ち上げ、パッケージデザインを制作しました。\r\nそれぞれのカラーの箱には、リラックス効果のある特定の成分が使用されており、色はその成分にちなんで選ばれています。全体のデザインは「眠り」と「心地よさ」をテーマにしています。\r\n\r\nパッケージに使用するアイコンは、ブレンドされている成分をモチーフにし、側面のデザインはシンプルに仕上げました。\r\n調査の中で「文字数は少なく、手順がすぐに理解できる方が好まれる」という結果を活かし、情報量を整理した構成にしています。\r\n\r\n全体としては、成分の魅力が伝わるようにカラフルかつ安心感のあるデザインを目指しました。",
+    "is_high_value": false,
+    "high_value_note_en": "",
+    "high_value_note_ja": "",
+    "order": 10,
+    "created_at": "2025-06-28T05:21:52.312Z",
+    "updated_at": "2025-06-28T05:21:52.312Z",
+    "user": 1
+  }
+},
+{
+  "model": "core.work",
+  "pk": 12,
+  "fields": {
+    "title_en": "11 Lost in Dreams Event (Personal Project)",
+    "title_ja": "11 Lost in Dreams（ロスト・イン・ドリームス）イベントポスター（個人プロジェクト）",
+    "description_en": "I made an event poster for the Lost In Dreams DJ event. I focused primarily on creating a poster\r\nthat would be bold and colorful. I wanted to use neon colors to represent the fun, electric DJ\r\nmusic. For the type, I wanted to have the triangle pointing up to the logo and names.",
+    "description_ja": "DJイベント「Lost in Dreams」のためのイベントポスターを制作しました。\r\nこのプロジェクトでは、大胆でカラフルなデザインを意識し、ネオンカラーを使って楽しくエネルギッシュなDJミュージックの世界観を表現しました。\r\n\r\nタイポグラフィの構成にも工夫を凝らし、三角形のラインがロゴやアーティスト名へと視線を導くようにデザインしています。",
+    "is_high_value": false,
+    "high_value_note_en": "",
+    "high_value_note_ja": "",
+    "order": 11,
+    "created_at": "2025-06-28T05:24:06.586Z",
+    "updated_at": "2025-06-28T05:24:06.586Z",
+    "user": 1
+  }
+},
+{
+  "model": "core.image",
+  "pk": 17,
+  "fields": {
+    "work": 2,
+    "image_file": "works/shorts1_list.png",
+    "purpose": "main",
+    "order": 1,
+    "created_at": "2025-06-13T07:46:51.074Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 18,
+  "fields": {
+    "work": 2,
+    "image_file": "works/shorts1_detail_1_kUqXhBV.png",
+    "purpose": "detail_main",
+    "order": 0,
+    "created_at": "2025-06-13T11:58:22.318Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 19,
+  "fields": {
+    "work": 2,
+    "image_file": "works/shorts1_detail_2.jpg",
+    "purpose": "detail",
+    "order": 0,
+    "created_at": "2025-06-13T11:58:49.608Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 20,
+  "fields": {
+    "work": 2,
+    "image_file": "works/shorts1_detail_3.jpg",
+    "purpose": "detail",
+    "order": 1,
+    "created_at": "2025-06-13T11:59:06.295Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 21,
+  "fields": {
+    "work": 2,
+    "image_file": "works/shorts1_detail_4.jpg",
+    "purpose": "detail",
+    "order": 2,
+    "created_at": "2025-06-13T11:59:19.908Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 22,
+  "fields": {
+    "work": 3,
+    "image_file": "works/shorts2_list_sOVR6X3.png",
+    "purpose": "main",
+    "order": 2,
+    "created_at": "2025-06-13T12:00:01.263Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 23,
+  "fields": {
+    "work": 3,
+    "image_file": "works/shorts2_detail_1.png",
+    "purpose": "detail_main",
+    "order": 0,
+    "created_at": "2025-06-13T12:00:23.634Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 24,
+  "fields": {
+    "work": 3,
+    "image_file": "works/shorts2_detail_2_k3nJZPU.png",
+    "purpose": "detail",
+    "order": 0,
+    "created_at": "2025-06-13T12:00:34.864Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 25,
+  "fields": {
+    "work": 3,
+    "image_file": "works/shorts2_detail_3_kyJYM48.png",
+    "purpose": "detail",
+    "order": 1,
+    "created_at": "2025-06-13T12:01:03.353Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 26,
+  "fields": {
+    "work": 3,
+    "image_file": "works/shorts2_detail_4.png",
+    "purpose": "detail",
+    "order": 2,
+    "created_at": "2025-06-13T12:01:14.507Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 27,
+  "fields": {
+    "work": 4,
+    "image_file": "works/03_list_new.png",
+    "purpose": "main",
+    "order": 3,
+    "created_at": "2025-06-13T12:02:51.683Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 28,
+  "fields": {
+    "work": 4,
+    "image_file": "works/shorts3_detail_1.png",
+    "purpose": "detail_main",
+    "order": 0,
+    "created_at": "2025-06-13T12:03:04.887Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 29,
+  "fields": {
+    "work": 4,
+    "image_file": "works/shorts3_detail_2.png",
+    "purpose": "detail",
+    "order": 0,
+    "created_at": "2025-06-13T12:03:14.566Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 30,
+  "fields": {
+    "work": 4,
+    "image_file": "works/shorts3_detail_3.png",
+    "purpose": "detail",
+    "order": 2,
+    "created_at": "2025-06-13T12:03:42.012Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 31,
+  "fields": {
+    "work": 4,
+    "image_file": "works/shorts3_detail_4_78oHd7y.png",
+    "purpose": "detail",
+    "order": 3,
+    "created_at": "2025-06-13T12:03:51.069Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 32,
+  "fields": {
+    "work": 5,
+    "image_file": "works/04_bookbox_list_and_detail_main.png",
+    "purpose": "main",
+    "order": 4,
+    "created_at": "2025-06-28T03:53:12.085Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 33,
+  "fields": {
+    "work": 5,
+    "image_file": "works/04_bookbox_list_and_detail_main_9yf1GfG.png",
+    "purpose": "detail_main",
+    "order": 0,
+    "created_at": "2025-06-28T03:53:47.676Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 34,
+  "fields": {
+    "work": 5,
+    "image_file": "works/04_bookbox_detail_2.png",
+    "purpose": "detail",
+    "order": 1,
+    "created_at": "2025-06-28T03:54:02.080Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 36,
+  "fields": {
+    "work": 5,
+    "image_file": "works/04_bookbox_detail_3_ivyXKdu.png",
+    "purpose": "detail",
+    "order": 2,
+    "created_at": "2025-06-28T03:56:05.433Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 37,
+  "fields": {
+    "work": 5,
+    "image_file": "works/04_bookbox_detail_4.png",
+    "purpose": "detail",
+    "order": 3,
+    "created_at": "2025-06-28T03:56:17.516Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 38,
+  "fields": {
+    "work": 5,
+    "image_file": "works/04_bookbox_detail_5.png",
+    "purpose": "detail",
+    "order": 4,
+    "created_at": "2025-06-28T03:56:28.955Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 39,
+  "fields": {
+    "work": 6,
+    "image_file": "works/05_burger_list_and_detail_main.png",
+    "purpose": "main",
+    "order": 0,
+    "created_at": "2025-06-28T06:02:53.615Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 40,
+  "fields": {
+    "work": 6,
+    "image_file": "works/05_burger_list_and_detail_main_gHlfriE.png",
+    "purpose": "detail_main",
+    "order": 1,
+    "created_at": "2025-06-28T06:03:08.361Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 41,
+  "fields": {
+    "work": 6,
+    "image_file": "works/05_burger_detail_1.png",
+    "purpose": "detail",
+    "order": 0,
+    "created_at": "2025-06-28T06:03:21.577Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 42,
+  "fields": {
+    "work": 7,
+    "image_file": "works/06_Inkaholics_Magazine_list_and_detail_main.png",
+    "purpose": "main",
+    "order": 0,
+    "created_at": "2025-06-28T06:08:08.993Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 43,
+  "fields": {
+    "work": 7,
+    "image_file": "works/06_Inkaholics_Magazine_list_and_detail_main_IbYNjwE.png",
+    "purpose": "detail_main",
+    "order": 0,
+    "created_at": "2025-06-28T06:08:25.371Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 45,
+  "fields": {
+    "work": 7,
+    "image_file": "works/06_Inkaholics_Magazine_detail_2.png",
+    "purpose": "detail",
+    "order": 0,
+    "created_at": "2025-06-28T06:08:49.276Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 46,
+  "fields": {
+    "work": 8,
+    "image_file": "works/07_MysticJinx_Logo_list_and_detail_main.png",
+    "purpose": "main",
+    "order": 0,
+    "created_at": "2025-06-28T06:12:37.391Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 47,
+  "fields": {
+    "work": 8,
+    "image_file": "works/07_MysticJinx_Logo_list_and_detail_main_o5sifUa.png",
+    "purpose": "detail_main",
+    "order": 0,
+    "created_at": "2025-06-28T06:12:46.718Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 48,
+  "fields": {
+    "work": 8,
+    "image_file": "works/07_MysticJinx_Logo_detail_1.png",
+    "purpose": "detail",
+    "order": 0,
+    "created_at": "2025-06-28T06:12:56.379Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 49,
+  "fields": {
+    "work": 8,
+    "image_file": "works/07_MysticJinx_Logo_detail_2.png",
+    "purpose": "detail",
+    "order": 0,
+    "created_at": "2025-06-28T06:13:06.609Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 50,
+  "fields": {
+    "work": 9,
+    "image_file": "works/08_Phantom_Poster_list_and_detail.png",
+    "purpose": "main",
+    "order": 0,
+    "created_at": "2025-06-28T06:15:42.691Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 51,
+  "fields": {
+    "work": 9,
+    "image_file": "works/08_Phantom_Poster_list_and_detail_EuyHxMy.png",
+    "purpose": "detail_main",
+    "order": 0,
+    "created_at": "2025-06-28T06:15:57.013Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 52,
+  "fields": {
+    "work": 10,
+    "image_file": "works/09_Blind_Faith_Project_list_and_detail_main.png",
+    "purpose": "main",
+    "order": 0,
+    "created_at": "2025-06-28T06:20:17.583Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 53,
+  "fields": {
+    "work": 10,
+    "image_file": "works/09_Blind_Faith_Project_list_and_detail_main_cFiZx1o.png",
+    "purpose": "detail_main",
+    "order": 0,
+    "created_at": "2025-06-28T06:20:28.100Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 55,
+  "fields": {
+    "work": 10,
+    "image_file": "works/09_Blind_Faith_Project_detail_2.png",
+    "purpose": "detail",
+    "order": 0,
+    "created_at": "2025-06-28T06:20:51.087Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 56,
+  "fields": {
+    "work": 10,
+    "image_file": "works/09_Blind_Faith_Project_detail_3.png",
+    "purpose": "detail",
+    "order": 0,
+    "created_at": "2025-06-28T06:21:00.471Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 57,
+  "fields": {
+    "work": 10,
+    "image_file": "works/09_Blind_Faith_Project_detail_4.png",
+    "purpose": "detail",
+    "order": 0,
+    "created_at": "2025-06-28T06:21:09.904Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 58,
+  "fields": {
+    "work": 11,
+    "image_file": "works/010_tea_list_and_detail_main.png",
+    "purpose": "main",
+    "order": 0,
+    "created_at": "2025-06-28T06:23:03.537Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 59,
+  "fields": {
+    "work": 11,
+    "image_file": "works/010_tea_list_and_detail_main_nRZoPFY.png",
+    "purpose": "detail_main",
+    "order": 0,
+    "created_at": "2025-06-28T06:23:14.371Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 60,
+  "fields": {
+    "work": 12,
+    "image_file": "works/11_Dreams_Event_list_and_detail_main.png",
+    "purpose": "main",
+    "order": 0,
+    "created_at": "2025-06-28T06:25:46.832Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 61,
+  "fields": {
+    "work": 12,
+    "image_file": "works/11_Dreams_Event_list_and_detail_main_TU34bvD.png",
+    "purpose": "detail_main",
+    "order": 0,
+    "created_at": "2025-06-28T06:25:56.300Z"
+  }
+},
+{
+  "model": "core.image",
+  "pk": 62,
+  "fields": {
+    "work": 12,
+    "image_file": "works/11_Dreams_Event_detail_1.png",
+    "purpose": "detail",
+    "order": 0,
+    "created_at": "2025-06-28T06:26:05.563Z"
+  }
+}
+]
