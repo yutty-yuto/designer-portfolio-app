@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=for-the-badge">
 
   <!-- インフラ -->
-  <img src="https://img.shields.io/badge/Amazon%20AWS-232F3E?logo=amazonaws&logoColor=white&style=for-the-badge">
+  <img alt="AWS" src="https://img.shields.io/static/v1?label=&message=AWS&logo=amazonaws&logoColor=white&color=232F3E&style=for-the-badge">
 </p>
 
 ## 本番環境URL
@@ -23,10 +23,9 @@
 
 ## 目次
 1. [プロジェクトについて](#プロジェクトについて)
-2. [本番環境URL](本番環境URL)
-3. [スクリーンショット](#スクリーンショット)
-4. [環境](#環境)
-5. [工夫したポイント](#工夫したポイント)
+2. [スクリーンショット](#スクリーンショット)
+3. [環境](#環境)
+4. [工夫したポイント](#工夫したポイント)
 
 ## プロジェクト名
 デザイナー用ポートフォリオWebアプリ
