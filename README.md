@@ -17,6 +17,9 @@
   <img src="https://img.shields.io/badge/Amazon%20AWS-232F3E?logo=amazonaws&logoColor=white&style=for-the-badge">
 </p>
 
+## 本番環境URL
+[![ポートフォリオサイトを開く](https://img.shields.io/static/v1?label=ポートフォリオサイトを開く&message=ana-flaherty.com&color=2ea44f&style=for-the-badge)](https://ana-flaherty.com)
+
 
 ## 目次
 1. [プロジェクトについて](#プロジェクトについて)
@@ -34,9 +37,6 @@
 - PC・スマホ対応、ミニマルデザイン
 - 英語・日本語の多言語対応
 
-## 本番環境URL
-[![ポートフォリオサイトを開く](https://img.shields.io/badge/Live_Site-ana--flaherty.com-2ea44f?style=for-the-badge)](https://ana-flaherty.com)
-
 ## スクリーンショット
 <p align="center">
   <img src="docs/screenshots/pc.png" width="900" alt="ホーム画面(PC)">
@@ -46,7 +46,7 @@
 </p>
 
 ## ショートデモ
-[デモを観る](https://ana-flaherty.com/media/portfolio-demo.v1.mp4)
+[▶ デモをみる（約30秒）](https://ana-flaherty.com/media/portfolio-demo.v1.mp4)
 
 ## 環境
 | 言語・フレームワーク  | バージョン |
@@ -61,6 +61,6 @@
 | AWS                    | Elastic Beanstalk<br>RDS (PostgreSQL)<br>S3<br>CloudFront<br>Route 53<br>ACM |
 
 ## 工夫したポイント
-- AWSのElastic Beanstalk + RDS + S3 + CloudFrontを活用し、スケーラブルな構成を実現
 - Django REST FrameworkでAPIを構築し、Vanilla JSから非同期通信で操作
+- AWS（Elastic Beanstalk, RDS, S3, CloudFront, Route 53, ACM）で**運用の容易さと安定性を重視**した構成で、将来的な拡張にも対応可能
 - URLパス・HTTPヘッダ両対応の多言語切替機能
