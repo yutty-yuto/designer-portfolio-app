@@ -38,17 +38,15 @@
 [![ポートフォリオサイトを開く](https://img.shields.io/badge/Live_Site-ana--flaherty.com-2ea44f?style=for-the-badge)](https://ana-flaherty.com)
 
 ## スクリーンショット
-![ホーム画面(PC)](pc.png)
-![ホーム画面(スマホ)](iphone.png)
 <p align="center">
-  <img src="docs/screenshots/hero-laptop.webp" width="900" alt="Portfolio home on laptop frame">
+  <img src="docs/screenshots/pc.png" width="900" alt="ホーム画面(PC)">
 </p>
 <p align="center">
-  <img src="docs/screenshots/hero-mobile.webp" width="360" alt="Portfolio page on mobile frame">
+  <img src="docs/screenshots/iphone.png" width="360" alt="ホーム画面(スマホ)">
 </p>
 
 ## ショートデモ
-[デモを観る]()
+[デモを観る](https://ana-flaherty.com/media/portfolio-demo.v1.mp4)
 
 ## 環境
 | 言語・フレームワーク  | バージョン |
