@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=for-the-badge">
 
   <!-- インフラ -->
-  <img alt="AWS" src="https://img.shields.io/static/v1?label=&message=AWS&logo=amazonaws&logoColor=white&color=232F3E&style=for-the-badge">
+  <img alt="AWS" src="https://img.shields.io/static/v1?label=&message=AWS&logo=amazonaws&logoColor=FF9900&color=232F3E&style=for-the-badge&logoWidth=20">
 </p>
 
 ## 本番環境URL
