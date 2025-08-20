@@ -147,7 +147,6 @@ WSGI_APPLICATION = 'designer_portfolio_project.wsgi.application'
 
 
 # Database
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
