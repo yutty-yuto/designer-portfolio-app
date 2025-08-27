@@ -18,7 +18,7 @@ ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '').split(',')
 # .envファイルから、管理者用メールアドレスをカンマ区切りし、リストで定義
 ALLOWED_EMAILS = os.environ.get('ALLOWED_ADMIN_EMAILS', '').split(',')
 
-# Application definition
+# アプリ定義
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -146,7 +146,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'designer_portfolio_project.wsgi.application'
 
 
-# Database
+# データベース情報
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
