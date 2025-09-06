@@ -6,7 +6,7 @@ from django.utils.translation import gettext_lazy as _
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# SECURITY WARNING: keep the secret key used in production secret!
+# 注意： 本番環境では本番用を使用
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 # 注意： 本番環境ではデバック環境をTrueにして運用しない！
