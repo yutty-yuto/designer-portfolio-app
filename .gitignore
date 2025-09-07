@@ -21,8 +21,17 @@ media/
 
 # その他
 *.log
+**/.DS_Store
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+
+# TypeScript build outputs
+frontend/js-dist/
+*.tsbuildinfo
+
+# Node
+node_modules/
+frontend/node_modules/
