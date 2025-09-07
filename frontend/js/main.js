@@ -1,4 +1,5 @@
-import { fetchWorks, fetchFavorite } from "./api.js";
+// import { fetchWorks, fetchFavorite } from "./api.js";
+import { fetchWorks, fetchFavorite } from "/js-dist/api.js";
 import { updateLocalFavorites } from "./favorite.js";
 import { loadLanguage, setupLanguageToggle } from "./lang.js";
 import { CONFIG } from "./env.js";
